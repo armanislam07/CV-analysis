@@ -1,0 +1,389 @@
+.progress-bar1 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin:0 auto;
+}
+ 
+.progress-bar1 div {
+  position: absolute;
+  height: 100px;
+  width: 100px !important;
+  border-radius: 50%;
+}
+ 
+.progress-bar1 div span {
+  position: absolute;
+  font-family: Arial;
+  font-size: 18px;
+  line-height: 75px;
+  height: 75px;
+  width: 75px;
+  left: 12.5px;
+  top: 12.5px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+}
+ 
+.progress-bar1 .background { background-color: #b3cef6; }
+ 
+.progress-bar1 .rotate {
+  clip: rect(0 50px 100px 0);
+  background-color: #4b86db;
+}
+ 
+.progress-bar1 .left {
+  clip: rect(0 50px 100px 0);
+  opacity: 1;
+  background-color: #b3cef6;
+}
+ 
+.progress-bar1 .right {
+  clip: rect(0 50px 100px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+      top: -8px;
+  background-color: #4b86db;
+}
+ 
+@keyframes
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+.badge-primary a{
+    color: #fff;
+}
+.padding-zero{
+    padding-left: 0;
+    padding-right: 0;
+}
+.hom-listed{
+    background: #fff;
+    padding: 15px;
+}
+.my_stats{
+    background: #efefef;
+    padding:15px;
+}
+.my_stats h3{
+    font-size: 18px;
+}
+.my_stats p{
+    margin-bottom: 0px;
+}
+.bootstrap-iso .formden_header h2, .bootstrap-iso .formden_header p, .bootstrap-iso form{
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black
+}
+.bootstrap-iso form button, .bootstrap-iso form button:hover{
+    color: white !important;
+} .asteriskField{
+    color: red;
+}
+.job-preview .right {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.job-preview .right .panel-heading {
+    background-color: #37474f;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+        border-radius: 5px 5px 0px 0px;
+}
+.job-preview .right .panel-body {
+    border: 1px solid #DDDDDD;
+}
+.job-preview .right .panel-body {
+    background-color: #f9f9f9;
+}
+.job-preview .right h4 {
+    font-size: 13px;
+    color: #5c5c5c;
+    font-weight: normal;
+    margin: 0px 0px 15px 0px;
+    padding: 0;
+}
+.job-preview .right h4 {
+    font-size: 13px;
+    color: #5c5c5c;
+}
+.panel-body {
+    padding: 15px;
+}
+.job-preview .right .panel {
+    border: none;
+}
+.user_des_img{
+    width: 100%;
+}
+.user_des_img img{
+    width: 45%;
+    display: block;
+    margin: 0px auto;
+}
+.user_des{
+    padding-top:15px; 
+}
+.user_des h6{
+    background: #ddd;
+    padding: 7px;
+    border-radius: 5px 5px 0px 0px;
+}
+.user_des p{
+    padding: 7px;
+    margin:0px;
+}
+.norm-jobs-wrapper {
+    background: #FBFBFB;
+    border: 1px solid #d5d5d5;
+    /*cursor: pointer;*/
+    padding: 5px 18px 15px 10px;
+    margin: 5px 0px 5px 0px;
+    border-radius: 8px;
+    color: #656565;
+}
+.norm-jobs-wrapper:hover {
+    background: #F5F5F5;
+    /*cursor: pointer;*/
+    -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+.job-title-text {
+    color: #2F64A2;
+    font-weight: bold;
+    margin: 10px 0px 0px 10px;
+    font-size: 18px;
+}
+.job-title-text a {
+    text-decoration: none;
+    outline: none;
+    color: #2F64A2;
+}
+.comp-name-text {
+    margin: 5px 0px 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+.norm-jobs-list ul i{
+    padding-right: 10px;
+    font-size: 17px;
+}
+.norm-jobs-list .fa-map-marker{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 16px;
+}
+.norm-jobs-list .fa-briefcase{
+    /*font-size: 20px;*/
+    padding-left: 3px;
+    padding-right: 13px;
+}
+.norm-jobs-list .fa-clock-o{
+    /*font-size: 20px;*/
+    padding-left: 5px;
+    padding-right: 13px;
+}
+.panel-heading {
+    background-color: #37474f;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+}
+/*form styles*/
+/*
+.card {
+    height: 100%;
+    background: #6441A5; 
+    background: -webkit-linear-gradient(to left, #6441A5, #2a0845); 
+}
+
+#msform {
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+#msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+
+    
+    position: relative;
+}
+
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+#msform input, #msform textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+#msform input:focus, #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #ee0979;
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+
+#msform .action-button {
+    width: 100px;
+    background: #ee0979;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button:hover, #msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #ee0979;
+}
+
+#msform .action-button-previous {
+    width: 100px;
+    background: #C5C5F1;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+#msform .action-button-previous:hover, #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #C5C5F1;
+}
+
+
+.fs-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2C3E50;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.fs-subtitle {
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+
+#progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+    counter-reset: step;
+}
+
+#progressbar li {
+    list-style-type: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 9px;
+    width: 33.33%;
+    float: left;
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 24px;
+    height: 24px;
+    line-height: 26px;
+    display: block;
+    font-size: 12px;
+    color: #333;
+    background: white;
+    border-radius: 25px;
+    margin: 0 auto 10px auto;
+}
+
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    left: -50%;
+    top: 9px;
+    z-index: -1; 
+}
+
+#progressbar li:first-child:after {
+   
+    content: none;
+}
+
+
+#progressbar li.active:before, #progressbar li.active:after {
+    background: #ee0979;
+    color: white;
+}
+
+
+
+.dme_link {
+    margin-top: 30px;
+    text-align: center;
+}
+.dme_link a {
+    background: #FFF;
+    font-weight: bold;
+    color: #ee0979;
+    border: 0 none;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px 25px;
+    font-size: 12px;
+}
+
+.dme_link a:hover, .dme_link a:focus {
+    background: #C5C5F1;
+    text-decoration: none;
+}
+*/
